@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 jobs:
   package:
-    uses: nandi-conda/ci/.github/workflows/conda-package.yml@bd30de3232731ff0326be04f69d954ae0af69d21
+    uses: nandi-conda/ci/.github/workflows/conda-package.yml@d3f4a363acfb7aa2d690074841713b23d27b0013
     secrets: inherit
     permissions:
       contents: read
